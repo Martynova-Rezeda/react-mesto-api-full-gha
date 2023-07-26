@@ -1,0 +1,10 @@
+.page {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  max-width: 100%;
+  min-width: 320px;
+  background: #000000;
+  margin: 0 auto;
+  box-sizing: border-box;
+  position: relative;
+  min-height: 100vh;
+}

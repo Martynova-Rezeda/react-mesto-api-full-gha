@@ -1,0 +1,20 @@
+.profile__info-card {
+	display: flex;
+	flex-direction: column;
+	min-width: 336px;
+	gap: 16px;
+}
+
+@media screen and (max-width: 950px) and (min-width: 650px) {
+.profile__info-card {
+	min-width: 200px;
+}
+}
+
+@media screen and (max-width: 649px) and (min-width: 320px) {
+.profile__info-card {
+	min-width: 282px;
+	justify-content: flex-start;
+	gap: 12px;
+}
+}

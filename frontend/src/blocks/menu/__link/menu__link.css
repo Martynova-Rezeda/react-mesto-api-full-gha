@@ -1,0 +1,8 @@
+.menu__link {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #a9a9a9;
+  text-decoration: none;
+  cursor: pointer;
+}

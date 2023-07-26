@@ -1,0 +1,13 @@
+.register__field {
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  border: none;
+  border-bottom: 2px solid #cccccc;
+  background-color: transparent;
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
