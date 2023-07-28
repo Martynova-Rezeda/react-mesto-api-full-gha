@@ -100,6 +100,6 @@ export class Api {
 }
 
 //Создание экземпляра класса Api
-const api = new Api( 'https://api.mesto.martynova.nomoreparties.sbs',
+const api = new Api( 'http://api.mesto.martynova.nomoreparties.sbs',
 );
 export default api;

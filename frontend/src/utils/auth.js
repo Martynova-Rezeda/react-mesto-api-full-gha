@@ -1,4 +1,4 @@
-export const BASE_URL = 'https://api.mesto.martynova.nomoreparties.sbs';
+export const BASE_URL = 'http://api.mesto.martynova.nomoreparties.sbs';
 const checkResponse = (res) => {
   if (res.ok) {
     return res.json();

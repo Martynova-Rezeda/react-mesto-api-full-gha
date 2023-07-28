@@ -7,8 +7,8 @@
 
 ## Ссылки на проект
 
-IP-адрес <158.160.2.65>
+IP 158.160.112.63
 
-Frontend https://...
+Frontend https://mesto.martynova.nomoredomains.xyz
 
-Backend https://...
+Backend https://api.mesto.martynova.nomoreparties.sbs
