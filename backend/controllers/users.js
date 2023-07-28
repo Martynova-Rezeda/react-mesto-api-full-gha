@@ -34,7 +34,7 @@ const createUser = (req, res, next) => {
   // Возвращаем записанные в базу данные пользователю
     .then((user) => {
       const { _id } = user;
-      res.send({
+      res.status(201).send({
         name, about, avatar, email, _id,
       });
     })

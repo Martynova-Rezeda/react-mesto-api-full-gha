@@ -9,7 +9,7 @@ const createCard = (req, res, next) => {
   // записываем данные в базу
   Card.create({ name, link, owner })
   // Возвращаем записанные в базу данные пользователю
-    .then((card) => res.send(card))
+    .then((card) => res.status(201).send(card))
   // если данные не записались, возвращаем ошибку
     .catch((err) => {
       if (err.name === 'ValidationError') {

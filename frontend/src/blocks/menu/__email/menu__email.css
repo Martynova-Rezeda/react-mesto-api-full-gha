@@ -1,5 +1,4 @@
 .menu__email {
-  max-width: 141px;
   font-size: 18px;
   line-height: 22px;
   font-weight: 500;
@@ -10,5 +9,6 @@
 @media screen and (max-width: 649px) and (min-width: 320px) {
   .menu__email {
     margin: 0;
+    max-width: 141px;
   }
 }
